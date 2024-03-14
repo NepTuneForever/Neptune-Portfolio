@@ -1,0 +1,61 @@
+#JS:hover {
+    transition: 350ms;
+    color: rgba(235, 11, 11, 0.74);
+}
+
+#PHP:hover {
+    transition: 350ms;
+    color: rgba(235, 11, 11, 0.74);
+}
+
+#Python:hover {
+    transition: 350ms;
+    color: rgba(235, 11, 11, 0.74);
+}
+
+#Lua:hover {
+    transition: 350ms;
+    color: rgba(235, 11, 11, 0.74);
+}
+
+#HTML:hover {
+    transition: 350ms;
+    color: rgba(235, 11, 11, 0.74);
+}
+
+#GitHub:hover {
+    background-color: rgba(5, 8, 5, 0.685);
+    padding: 20px 20px;
+}
+
+#GitHub a:hover {
+    color: aliceblue;
+}
+
+#CSharp:hover {
+    transition: 350ms;
+    color: rgba(235, 11, 11, 0.74);
+}
+
+#React:hover {
+    transition: 350ms;
+    color: rgba(235, 11, 11, 0.74);
+}
+
+#Hacking:hover {
+    transition: 350ms;
+    color: brown;
+}
+
+#Links a:visited {
+    color: aliceblue;
+}
+
+#Links a:link {
+    color: aliceblue;
+}
+
+#Links a:hover {
+    transition: 300ms;
+    padding: 10px;
+}
