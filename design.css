@@ -1,0 +1,168 @@
+* {
+    margin: 0%;
+    padding: 1px;
+    border: none;
+}
+
+body {
+    background-color: #000000f1;
+}
+
+.Header {
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: aliceblue;
+    position: relative;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.Description {
+    color: brown;
+    text-shadow: 5px 5px 5px;
+    text-align: left;
+    margin: 10px 85px;
+    line-height: 25px;
+    padding: 10px;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Sequence {
+    margin: 1px 1px 1px -5px;
+    padding: 10px 10px 10px 10px;
+    line-height: 55px;
+    font-size: 40px;
+    vertical-align: -5px;
+}
+
+#Divs {
+    color: black;
+    border: 0,1px solid black;
+    background-color: rgba(0, 0, 0, 0.61);
+    margin: 10px;
+}
+
+#GitHub {
+    border: none;
+    border-radius: 9999px;
+    padding: 15px 10px;
+    background-color: rgba(43, 42, 42, 0.479);
+    cursor: pointer;
+    transition: 300ms;
+    margin: 10px 10px;
+}
+
+#GitHub a {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;   
+}
+
+#title {
+    color: rgba(240, 248, 255, 0.747);
+    margin-left: 500px;
+    margin-top: 10px;
+    animation-name: title;
+    animation-duration: 1s;
+}
+
+#desc {
+    margin-left: 350px;
+    color: rgba(240, 248, 255, 0.747);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation-name: inicio;
+    animation-duration: 1s;
+}
+
+@keyframes inicio {
+    0% {margin-left: 259px; color: black;}
+    100% {margin-left: 350px;}
+}
+
+@keyframes title {
+    0% {margin-left: 400px; color: black;}
+    100% {margin-left: 500px;}
+}
+
+#Fulltitle {
+    text-align: center;
+    color: aliceblue;
+    animation-name: Fulltitle;
+    animation-duration:1s;
+}
+
+@keyframes Fulltitle {
+    0% {color:black ;}
+    100% {}
+}
+
+#Fulldesc {
+    text-align: left;
+    margin: 3px;
+    padding: 1px;
+    color: aliceblue;
+    animation-name: Fulldesc; 
+    animation-duration: 1s;
+}
+
+@keyframes Fulldesc {
+    0% {color:black ;}
+    100% {}
+}
+
+#FullLang {
+    color: aliceblue;
+    text-align: left;
+}
+
+#GamerDev {
+    text-align: center;
+    color: aliceblue;
+    animation-name: Fulltitle;
+    animation-duration:1s;
+}
+
+#Rainbow {
+    background-image: linear-gradient(to left, red, blue, green);
+}
+
+#HackerDiv {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.700), red, rgba(0, 0, 0, 0.700));
+}
+
+#Hacking {
+    text-align: center;
+    color: aliceblue;
+    animation-name: Fulltitle;
+    animation-duration:1s;
+}
+
+#Alert {
+    color: red;
+    text-align: center;
+
+}
+
+.bottom {
+    position: absolute;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.459);
+    padding: 10px 574px;
+}
+
+#Links {
+    border: none;
+    border-radius: 9999px;
+    padding: 15px 10px;
+    background-color: rgba(20, 20, 20, 0.644);
+    cursor: pointer;
+    transition: 300ms;
+}
+
+#Links a {
+    text-decoration: none;
+}
